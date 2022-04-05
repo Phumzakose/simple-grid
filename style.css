@@ -2,6 +2,16 @@
   max-width: 1600px;
   margin: auto;
 }
+h1,
+h2,
+h3,
+h4 {
+  font-style: italic;
+  text-transform: uppercase;
+}
+h4 {
+  text-decoration: underline;
+}
 
 th {
   background-color: grey;
@@ -19,6 +29,7 @@ tr {
 }
 .text {
   display: inline-block;
+  padding: 20px;
 }
 .introduction {
   margin-left: auto;
