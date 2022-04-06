@@ -23,10 +23,13 @@ tr {
   float: left;
   padding: 15px;
 }
+
 .image {
   display: inline-block;
   vertical-align: top;
+  padding: 20px;
 }
+
 .text {
   display: inline-block;
   padding: 20px;
@@ -34,6 +37,15 @@ tr {
 .introduction {
   margin-left: auto;
   margin-right: auto;
+}
+.paragraph {
+  padding: 20px;
+}
+.left {
+  margin: 30px;
+}
+.center {
+  margin-bottom: 30px;
 }
 
 table,
@@ -45,9 +57,7 @@ th {
   padding: 10px;
   text-align: center;
 }
-p {
-  font-weight: 400;
-}
+
 @media (max-width: 600px) {
   table,
   td,
