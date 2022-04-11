@@ -9,10 +9,10 @@ h4 {
   font-style: italic;
   text-transform: uppercase;
 }
-img {
+/* img {
   width: 200px;
   height: 200px;
-}
+} */
 h4 {
   text-decoration: underline;
 }
@@ -69,10 +69,11 @@ th {
   .right {
     padding-right: 20px;
   }
-  /* img {
+  img {
     width: 150px;
-    height: 200px;
-  } */
+    height: 150px;
+  }
+
   .wrapper {
     width: 90%;
   }
